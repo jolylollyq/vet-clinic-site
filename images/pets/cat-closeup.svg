@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a3328"/>
+      <stop offset="100%" style="stop-color:#1e3d30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" style="stop-color:#4faa78;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#4faa78;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)"/>
+  <rect width="400" height="400" fill="url(#glow)"/>
+  <g transform="translate(200,180)" opacity="0.15">
+    <circle cx="0" cy="-20" r="35" fill="#4faa78"/>
+    <circle cx="-25" cy="-45" r="12" fill="#4faa78"/>
+    <circle cx="25" cy="-45" r="12" fill="#4faa78"/>
+    <circle cx="-35" cy="-22" r="11" fill="#4faa78"/>
+    <circle cx="35" cy="-22" r="11" fill="#4faa78"/>
+    <ellipse cx="0" cy="20" rx="18" ry="28" fill="#4faa78"/>
+  </g>
+  <text x="200" y="300" text-anchor="middle" fill="#4faa78" font-family="system-ui, sans-serif" font-size="16" opacity="0.2">A<>B@ ?8B><F0</text>
+</svg>
