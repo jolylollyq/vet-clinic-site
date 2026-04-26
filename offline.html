@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Нет соединения — Зелёный луг</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #162b22;
+      color: #e8ede9;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .icon { font-size: 3rem; margin-bottom: 1.5rem; opacity: 0.4; }
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; letter-spacing: -0.02em; }
+    p { font-size: 0.875rem; color: #a8c4b0; line-height: 1.7; max-width: 28rem; margin-bottom: 1.5rem; }
+    button {
+      background: linear-gradient(135deg, #4faa78, #5a9db8);
+      color: #0d1f15;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.75rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover { opacity: 0.9; }
+  </style>
+</head>
+<body>
+  <div class="icon">&#128268;</div>
+  <h1>Нет соединения</h1>
+  <p>
+    Не удалось подключиться к серверу. Проверьте подключение к интернету
+    и попробуйте снова.
+  </p>
+  <button onclick="location.reload()">Повторить</button>
+</body>
+</html>

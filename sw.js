@@ -1,8 +1,9 @@
-const CACHE_NAME = 'vet-clinic-v1';
+const CACHE_NAME = 'vet-clinic-v2';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
   '/favicon.svg',
+  '/offline.html',
 ];
 
 self.addEventListener('install', (event) => {
@@ -27,6 +28,30 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
+
+  const url = new URL(event.request.url);
+
+  // For navigation requests (HTML pages), use network-first with offline fallback
+  if (event.request.mode === 'navigate') {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, clone);
+          });
+          return response;
+        })
+        .catch(() => {
+          return caches.match(event.request).then((cached) => {
+            return cached || caches.match('/offline.html');
+          });
+        })
+    );
+    return;
+  }
+
+  // For static assets, use stale-while-revalidate
   event.respondWith(
     caches.match(event.request).then((cached) => {
       const fetchPromise = fetch(event.request).then((response) => {
