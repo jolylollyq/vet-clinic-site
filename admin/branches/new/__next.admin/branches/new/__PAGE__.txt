@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[47257,["/vet-clinic-site/_next/static/chunks/0fctm11j~yjbn.js","/vet-clinic-site/_next/static/chunks/0h.4mleeuv0nm.js","/vet-clinic-site/_next/static/chunks/17wqxm7v_600n.js","/vet-clinic-site/_next/static/chunks/16c_g083xvalk.js","/vet-clinic-site/_next/static/chunks/004fh.h8mwf87.js","/vet-clinic-site/_next/static/chunks/0d3shmwh5_nmn.js"],"ClientPageRoot"]
+3:I[76922,["/vet-clinic-site/_next/static/chunks/0fctm11j~yjbn.js","/vet-clinic-site/_next/static/chunks/0h.4mleeuv0nm.js","/vet-clinic-site/_next/static/chunks/17wqxm7v_600n.js","/vet-clinic-site/_next/static/chunks/16c_g083xvalk.js","/vet-clinic-site/_next/static/chunks/004fh.h8mwf87.js","/vet-clinic-site/_next/static/chunks/0d3shmwh5_nmn.js","/vet-clinic-site/_next/static/chunks/14.u-matj-6o..js","/vet-clinic-site/_next/static/chunks/14ksu1.soqern.js"],"default"]
+6:I[97367,["/vet-clinic-site/_next/static/chunks/0fctm11j~yjbn.js","/vet-clinic-site/_next/static/chunks/0h.4mleeuv0nm.js","/vet-clinic-site/_next/static/chunks/17wqxm7v_600n.js","/vet-clinic-site/_next/static/chunks/16c_g083xvalk.js","/vet-clinic-site/_next/static/chunks/004fh.h8mwf87.js","/vet-clinic-site/_next/static/chunks/0d3shmwh5_nmn.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/vet-clinic-site/_next/static/chunks/14.u-matj-6o..js","async":true}],["$","script","script-1",{"src":"/vet-clinic-site/_next/static/chunks/14ksu1.soqern.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"zB2eZvut02rIpw9tOkevR"}
+4:{}
+5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
+8:null
