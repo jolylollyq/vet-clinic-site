@@ -1,3 +1,3 @@
 :HL["/vet-clinic-site/_next/static/chunks/17z4k_sjutve0.css","style"]
 :HL["/vet-clinic-site/_next/static/chunks/131370yt1k5zo.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"Mu5xVINVpBwsjOstF4M2v"}
+0:{"tree":{"name":"","param":null,"prefetchHints":20,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"qWRkECKXYlRqFlqs6s5KJ"}
