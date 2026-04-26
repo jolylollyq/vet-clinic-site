@@ -1,4 +1,4 @@
-const CACHE_NAME = 'vet-clinic-v2';
+const CACHE_NAME = 'vet-clinic-v3';
 const STATIC_ASSETS = [
   '/',
   '/manifest.json',
